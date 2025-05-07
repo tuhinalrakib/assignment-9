@@ -8,7 +8,7 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/effect-fade';
 
 
-const Banner = () => {
+const Slidder = () => {
     
     return (
         <div className='mb-5'>
@@ -42,4 +42,4 @@ const Banner = () => {
     );
 };
 
-export default Banner;
+export default Slidder;

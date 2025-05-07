@@ -11,6 +11,7 @@ import PrivateRoute from '../contexts/PrivateRoute';
 import Loading from '../components/Loading';
 import Events from '../components/Events/Events';
 import EventDetails from '../components/Events/EventDetails';
+import UpcommingEvent from '../components/UpcommingEvent';
 
 const Routes = createBrowserRouter([
     {
@@ -60,6 +61,10 @@ const Routes = createBrowserRouter([
     {
         path : "/profile",
         element : <Profile></Profile>
+    },
+    {
+        path : "/upcoming",
+        element : <UpcommingEvent></UpcommingEvent>
     }
 ])
 

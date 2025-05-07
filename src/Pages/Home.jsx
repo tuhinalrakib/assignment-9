@@ -2,7 +2,8 @@ import React, { use} from 'react';
 import AuthContexct from '../contexts/AuthContexct';
 import Loading from '../components/Loading';
 import { Navigate, } from 'react-router';
-import Banner from '../components/Banner';
+import Banner from '../components/Slidder';
+import Slidder from '../components/Slidder';
 
 const Home = () => {
     const { user, loading } = use(AuthContexct)
@@ -15,7 +16,7 @@ const Home = () => {
 
     return (
         <div className='w-11/12 mx-auto'>
-            <Banner></Banner>
+            <Slidder></Slidder>
         </div>
     );
 };

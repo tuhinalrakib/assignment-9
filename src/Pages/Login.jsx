@@ -22,7 +22,7 @@ const Login = () => {
         .then(res=>{
             const user = res.user
             console.log(user)
-            toast("Tuhin Al Rakib")
+            toast("Login successfully")
             navigate("/")
         })
         .catch(e=>{
@@ -42,7 +42,7 @@ const Login = () => {
                         <fieldset className="fieldset">
                             {/* email */}
                             <label className="label text-accent text-[16px]">Enter Email Address</label>
-                            <input type="email" className="input mb-3 py-5" placeholder="Enter you email address" name='email'/>
+                            <input type="email" className="input mb-3 py-5" placeholder="Enter your email address" name='email'/>
                             {/* password */}
                             <label className="label text-accent text-[16px]">Enter Password</label>
                             <input type="password" className="input mb-1 py-5" placeholder="Password" name='password'/>
