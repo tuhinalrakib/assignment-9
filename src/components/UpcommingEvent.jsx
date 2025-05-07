@@ -39,10 +39,10 @@ const UpcommingEvent = () => {
                 <h1 className='text-5xl text-fuchsia-400 font-bold mb-5'>{upcomming.name}</h1>
                 <p>{new Date(upcomming.date).toDateString()} | {upcomming.location}</p>
                 <div className='flex justify-center gap-5 text-2xl mb-5 mt-24'>
-                    <strong className='text-7xl text-indigo-800'>{timeLeft.days ?? '--'} Days </strong><br />
-                    <strong className='text-7xl text-indigo-800'>{timeLeft.hours ?? '--'}</strong><br />
-                    <strong className='text-7xl text-indigo-800'>{timeLeft.minutes ?? '--'}</strong><br />
-                    <strong className='text-7xl text-indigo-800'>{timeLeft.seconds ?? '--'}</strong><br />
+                    <strong className='text-7xl text-[#000]'>{timeLeft.days ?? '--'} Days </strong><br />
+                    <strong className='text-7xl text-[#000]'>{timeLeft.hours ?? '--'}</strong><br />
+                    <strong className='text-7xl text-[#000]'>{timeLeft.minutes ?? '--'}</strong><br />
+                    <strong className='text-7xl text-[#000]'>{timeLeft.seconds ?? '--'}</strong><br />
                 </div>
                 <Link to="/events"><butto className='bg-orange-800 py-3 px-6 rounded-2xl font-bold cursor-pointer'>GO TO EVENT PAGE</butto></Link>
             </div>

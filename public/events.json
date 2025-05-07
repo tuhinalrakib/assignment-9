@@ -2,7 +2,7 @@
     {
       "id": "event_001",
       "name": "Tech Innovators Conference 2025",
-      "thumbnail": "https://i.ibb.co.com/k62Dn8hr/pexels-joshsorenson-976866.jpg",
+      "thumbnail": "https://i.postimg.cc/W3Ymhs10/pexels-zhuhehuai-716276.jpg",
       "category": ["Technology", "Innovation"],
       "date": "2025-10-15",
       "location": "Dhaka Convention Center, Dhaka",
@@ -12,7 +12,7 @@
     {
       "id": "event_002",
       "name": "Green Future Expo",
-      "thumbnail": "https://i.ibb.co.com/RGYYc1q9/pexels-zhuhehuai-716276.jpg",
+      "thumbnail": "https://i.postimg.cc/3NLX0Yrg/pexels-jibarofoto-2774556.jpg",
       "category": ["Environment", "Sustainability"],
       "date": "2025-08-10",
       "location": "Eco Park Arena, Berlin",
@@ -22,7 +22,7 @@
     {
       "id": "event_003",
       "name": "Startup Grind Asia",
-      "thumbnail": "https://i.ibb.co.com/9HNsckFh/pexels-wendywei-1190297.jpg",
+      "thumbnail": "https://i.postimg.cc/tJHqdxJb/pexels-wendywei-1190297.jpg",
       "category": ["Business", "Startups", "Networking"],
       "date": "2025-08-05",
       "location": "Marina Bay Sands, Singapore",
@@ -32,7 +32,7 @@
     {
       "id": "event_004",
       "name": "World Art Fair",
-      "thumbnail": "https://i.ibb.co.com/67wT47hh/pexels-wolfgang-1002140-2747449.jpg",
+      "thumbnail": "https://i.postimg.cc/BZytbj4m/pexels-teddy-2263436.jpg",
       "category": ["Art", "Culture", "Exhibition"],
       "date": "2025-09-21",
       "location": "Louvre Museum, Paris",
@@ -42,7 +42,7 @@
     {
       "id": "event_005",
       "name": "Global Health Summit",
-      "thumbnail": "https://i.ibb.co.com/ks5t053C/pexels-icsa-833425-1709003.jpg",
+      "thumbnail": "https://i.postimg.cc/SRz9R85p/pexels-pixabay-433452.jpg",
       "category": ["Health", "Medical", "Policy"],
       "date": "2025-11-12",
       "location": "Geneva Conference Hall, Switzerland",
@@ -52,7 +52,7 @@
     {
       "id": "event_006",
       "name": "International Film Gala",
-      "thumbnail": "https://i.ibb.co.com/6JPN3XyY/pexels-icsa-833425-1708912.jpg",
+      "thumbnail": "https://i.postimg.cc/T39vFsPZ/pexels-bertellifotografia-3321793.jpg",
       "category": ["Entertainment", "Film", "Red Carpet"],
       "date": "2025-12-01",
       "location": "Dolby Theatre, Los Angeles",

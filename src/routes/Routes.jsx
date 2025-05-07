@@ -10,6 +10,7 @@ import Home from '../Pages/Home';
 import PrivateRoute from '../contexts/PrivateRoute';
 import Loading from '../components/Loading';
 import Events from '../components/Events/Events';
+import EventDetails from '../components/Events/EventDetails';
 
 const Routes = createBrowserRouter([
     {
@@ -19,7 +20,7 @@ const Routes = createBrowserRouter([
             {
                 path : "",
                 element : <Home></Home>,
-            }
+            }            
         ]
     },
     {
@@ -27,11 +28,20 @@ const Routes = createBrowserRouter([
         element : <ErrorPage></ErrorPage>
     },
     {
+        path : "events/:id",
+        element : <PrivateRoute>
+            <EventDetails></EventDetails>
+        </PrivateRoute>,
+        loader : ()=>fetch("/events.json"),
+        hydrateFallbackElement : <Loading></Loading>
+    },
+    {
         path : "/events",
         element : <PrivateRoute>
             <Events></Events>
         </PrivateRoute>,
-        loader : ()=>fetch("/events.json")
+        loader : ()=>fetch("/events.json"),
+        hydrateFallbackElement : <Loading></Loading>
     },
     {
         path : "/auth",

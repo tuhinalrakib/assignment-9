@@ -26,16 +26,16 @@ const Banner = () => {
                 //  fadeEffect={{ crossFade: true }}
             >
                 <SwiperSlide>
-                    <img src="https://i.ibb.co/RGYYc1q9/pexels-zhuhehuai-716276.jpg" alt="" />
+                    <img src="https://i.postimg.cc/vTBpPBpV/product-school-d-JICd7b-Ll-E-unsplash.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://i.ibb.co.com/RGYYc1q9/pexels-zhuhehuai-716276.jpg" alt="" />
+                    <img src="https://i.postimg.cc/NGRZ9VwZ/people-working-tech-brand-together.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://i.ibb.co.com/9HNsckFh/pexels-wendywei-1190297.jpg" alt="" />
+                    <img src="https://i.postimg.cc/SRz9R85p/pexels-pixabay-433452.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://i.ibb.co.com/67wT47hh/pexels-wolfgang-1002140-2747449.jpg" alt="" />
+                    <img src="https://i.postimg.cc/T39vFsPZ/pexels-bertellifotografia-3321793.jpg" alt="" />
                 </SwiperSlide>
             </Swiper>
         </div>
